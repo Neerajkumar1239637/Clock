@@ -1,0 +1,37 @@
+#clockcontainer{
+    position:relative;
+    /* border:2px dotted black; */
+    height:40vw;
+    width:40vw;
+    background:url(https://toppng.com/uploads/preview/clock-without-hands-11549791002wehd8vrt9h.png);
+    background-size:100%;
+    margin:auto;
+}
+#hour,#minute,#second
+{
+    position:absolute;
+    background:black;
+    border-radius:10px;
+    transform-origin:bottom;
+}
+#hour
+{
+    width: 3%;
+    height: 20%;
+    top: 33.5%;
+    left: 49%;
+}
+#minute
+{
+    width: 2%;
+    height: 30%;
+    top: 23%;
+    left: 49.5%
+}
+#second
+{
+    width: 1%;
+    height: 40%;
+    top: 12.7%;
+    left: 50%;
+}
